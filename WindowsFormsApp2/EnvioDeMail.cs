@@ -28,9 +28,9 @@ namespace WindowsFormsApp2
             ObtenerDatos.Body = btnMensaje.Text; //MENSAJE
             ObtenerDatos.BodyEncoding = System.Text.Encoding.UTF8;
 
-            ObtenerDatos.From = new System.Net.Mail.MailAddress("preuebaenviodemail@gmail.com");
+            ObtenerDatos.From = new System.Net.Mail.MailAddress(MAIL DENTRO DE COMILLAS);
             System.Net.Mail.SmtpClient cliente = new System.Net.Mail.SmtpClient();
-            cliente.Credentials = new System.Net.NetworkCredential("preuebaenviodemail@gmail.com", "Vale1234_");
+            cliente.Credentials = new System.Net.NetworkCredential("MAIL", "CONTRASEÑA");
             //Puerto de gmail
             cliente.Port = 587;
             //seguridad 
